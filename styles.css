@@ -87,7 +87,7 @@ body.dark-mode {
 
 /* ///ADD/// Skip Link Styles */
 
-#skip-link {
+.skip-link {
   position: absolute;
   left: -10000px;
   top: auto;
@@ -96,7 +96,7 @@ body.dark-mode {
   overflow: hidden;
 }
 
-#skip-link:focus {
+.skip-link:focus {
   position: static;
   width: auto;
   height: auto;
