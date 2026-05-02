@@ -163,9 +163,20 @@ article {
   border: 1px solid var(--truth-text);
 }
 
+#breaking-news h3 {
+  border-bottom: 1px solid var(--watchdog-white);
+  padding-bottom: 0.5rem;
+  color: var(--watchdog-white);
+}
+
 #featured-articles article {
   border: 1px solid var(--story-subtitle);
   padding: 1rem;
+}
+
+#featured-articles h3 {
+  border-bottom: 1px solid var(--truth-text);
+  padding-bottom: .5rem;
 }
 
 video {
@@ -184,16 +195,23 @@ h1{
 h2 {
   font-size: 1.5rem;
   font-family: var(--font-heading);
+  color: var(--truth-text);
 }
 
 h3 {
   font-size: 1.25rem;
   font-family: var(--font-heading);
+  color: var(--truth-text);
 }
 
 p {
   font-size: 1rem;
   font-family: var(--font-body);
+  color: var(--truth-text);
+}
+
+#breaking-news p {
+  color: var(--watchdog-white);
 }
 
 .tagline{
