@@ -113,22 +113,43 @@
     <section id="alerts">
       <h2>Stay Informed. Stay Empowered.</h2>
         <p>Receive text messages with the news you want to know.</p>
-        
-        Name
-        
-        Mobile
-        
-        Notification Preferences
-        
-        Breaking News
-        Politics
-        Weather
-        Sports
-        Entertainment
-        World
-        Financial
-        
-        Subscribe
+          <form action="post" and method="https://wp.zybooks.com/form-viewer.php">
+            <div>
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name">
+            </div>
+            <div>
+              <label for="mobile">Mobile</label>
+              <input type="tel" id="mobile" name="mobile">
+            </div>
+            <div>
+              <fieldset>
+                <legend>Notification Preferences</legend>
+                  <label for="breakingnews">Breaking News</label>
+                  <input id="breakingnews" name="news" type="checkbox">
+
+                  <label for="politics">Politics</label>
+                  <input id="politics" name="news" type="checkbox">
+
+                  <label for="weather">Weather</label>
+                  <input id="weather" name="news" type="checkbox">
+
+                  <label for="sports">Sports</label>
+                  <input id="sports" name="news" type="checkbox">
+
+                  <label for="entertainment">Entertainment</label>
+                  <input id="entertainment" name="news" type="checkbox">
+
+                  <label for="world">World</label>
+                  <input id="world" name="news" type="checkbox">
+
+                  <label for="financial">Financial</label>
+                  <input id="financial" name="news" type="checkbox">     
+            </fieldset>
+            
+            <button type="submit">Subscribe</button>
+
+          </form> 
       </section>
     
     <footer>
@@ -141,11 +162,9 @@
             <li>TikTok</li>
             <li>LinkedIn</li>
           </ul>
+            <address>&copy; 2025 Civic Lens. All rights reserved.</address>
       </section>  
-        &copy; 2025 Civic Lens. All rights reserved.
-    </footer>
-      
-        
+    </footer>     
         
   <script>
     const toggleButton = document.getElementById('theme-toggle');
